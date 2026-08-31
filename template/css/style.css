@@ -1,0 +1,24 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Segoe UI",Tahoma;color:#222;line-height:1.7}
+img{max-width:100%;display:block}
+a{color:#222;text-decoration:none}
+h1,h2,h3,p,ul{margin-bottom:12px}
+ul{margin-left:20px;text-align:left}
+.title1{font-size:40px}
+.title2{font-size:26px}
+.text1{font-size:18px}
+.logo,.on,.footer h3{color:#f0a020;font-weight:bold}
+.menu,.link,.part1,.card-row,.pic-row{display:flex;flex-wrap:wrap;align-items:center;gap:20px}
+.card-row,.pic-row{justify-content:center}
+.menu{justify-content:space-between;padding:15px 40px;border-bottom:2px solid #f0a020}
+.hero,.head1,.part1,.part2,.footer{padding:45px 40px}
+.hero,.head1,.part2{background:#fff6e8}
+.hero,.head1,.part2,.footer{text-align:center}
+.img1{flex:1}
+.box1{flex:2;min-width:260px;text-align:left}
+.card1,.pic1{flex:1;min-width:220px}
+.card1{background:#fff;padding:15px;text-align:left}
+.img1,.card1 img,.pic1 img{width:100%;height:220px;object-fit:cover}
+.btn1{display:inline-block;padding:10px 24px;background:#f0a020;color:#fff}
+.footer{background:#222;color:#fff}
+.footer a{color:#f0a020;background:transparent}
